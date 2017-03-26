@@ -12,7 +12,6 @@ dependencies:
 test:
   post:
     - bundle exec jekyll build
-    - bundle exec htmlproof ./_site --only-4xx --href-ignore "#"
 
 deployment:
   production:
